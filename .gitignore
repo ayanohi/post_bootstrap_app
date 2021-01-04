@@ -25,3 +25,10 @@
 
 # Ignore master key for decrypting credentials and more.
 /config/master.key
+
+# 以下を追加
+.DS_Store
+/vendor/bundle
+
+# RubyMineを使用されている方は次も追加
+# /.idea
