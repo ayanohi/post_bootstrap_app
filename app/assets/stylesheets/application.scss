@@ -17,3 +17,13 @@ div.field_with_errors {
   max-width: var(--breakpoint-lg);
   padding: 30px 15px;
 }
+
+// テーブル
+th,
+td {
+  vertical-align: middle !important;
+}
+
+.break-word {
+  word-break: break-word;
+}
